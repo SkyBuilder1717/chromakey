@@ -15,3 +15,12 @@ minetest.register_node("chromakey:chroma", {
 	light_source = minetest.LIGHT_MAX,
 	on_dig = unifieddyes.on_dig
 })
+
+minetest.register_craft({
+	output = "chromakey:chroma 4",
+	recipe = {
+		{"dye:white", "default:glass", "dye:white"},
+		{"default:glass", "default:torch", "default:glass"},
+		{"dye:white", "default:mese_crystal", "dye:white"},
+	},
+})
