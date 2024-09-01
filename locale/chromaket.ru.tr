@@ -1,0 +1,28 @@
+# textdomain: chromakey
+@1 chroma block=@1 хрома блок
+
+# Emergency dye creator
+dye=краситель
+@1 @2=@1 @2
+
+# Color
+White=Белый
+Grey=Серый
+Dark Grey=Тёмно-серый
+Black=Черный
+Violet=Фиолетовый
+Blue=Синий
+Dark Cyan=Тёмно-бирюзовый
+Cyan=Бирюзовый
+Dark Green=Тёмно-зелёный
+Navajo White=Белый навахо
+Medium Spring Green=Средне-весенний Зеленый
+Green=Зелёный
+Lime=Лаймовый
+Olive=Оливковый
+Yellow=Жёлтый
+Brown=Коричневый
+Orange=Оранжевый
+Red=Красный
+Magenta=Сиреневый
+Pink=Розовый
