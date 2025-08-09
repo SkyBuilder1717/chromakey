@@ -1,22 +1,19 @@
-local modname = minetest.get_current_modname()
-local modpath = minetest.get_modpath(modname)
-local S = minetest.get_translator(modname)
-chromakey = {
-    registered_chromakeys = {}
-}
+local modname = core.get_current_modname()
+local modpath = core.get_modpath(modname)
+local S = core.get_translator(modname)
 
-minetest.register_node("chromakey:chroma", {
+core.register_node("chromakey:chroma", {
 	description = S("Chroma block"),
 	tiles = {"chromakey_white.png"},
 	groups = {cracky = 1, ud_param2_colorable = 1},
 	paramtype = "light",
 	paramtype2 = "color",
 	palette = "unifieddyes_palette_extended.png",
-	light_source = minetest.LIGHT_MAX,
+	light_source = core.LIGHT_MAX,
 	on_dig = unifieddyes.on_dig
 })
 
-minetest.register_craft({
+core.register_craft({
 	output = "chromakey:chroma 4",
 	recipe = {
 		{"dye:white", "default:glass", "dye:white"},
